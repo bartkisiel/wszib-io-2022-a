@@ -23,12 +23,18 @@ class Trojkaty {
     
     /** Wyświetla ekran pomocy */
     public static void pomoc(){
-        System.out.println("Acme INC. (C) 2022");
-        System.out.println("Program do rozpoznawania rodzaju trójkąra");
         System.out.println("Uruchom z trzema argumentami liczbowymi - długość boków trójkąta");
     }
+
+    public static void welcome() {
+        System.out.println("=== Welcoming message ===");
+        System.out.println("Acme INC. (C) 2022");
+        System.out.println("Program do rozpoznawania rodzaju trójkąta");
+    }
+
     /** Glowna funkcja */
     public static void main(String... args) {
+        welcome();
         float a = Float.valueOf(args[0]);
         float b = Float.valueOf(args[1]);
         float c = Float.valueOf(args[2]);

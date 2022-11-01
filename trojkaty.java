@@ -29,6 +29,7 @@ class Trojkaty {
     }
     /** Glowna funkcja */
     public static void main(String... args) {
+        System.out.println("=== Welcoming message ===");
         float a = Float.valueOf(args[0]);
         float b = Float.valueOf(args[1]);
         float c = Float.valueOf(args[2]);
